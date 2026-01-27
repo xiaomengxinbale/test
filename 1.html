@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>2026 搞事计划</title>
+    <style>
+        /* 基础样式重置 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            /* 背景处理：使用渐变色营造高级感 */
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            line-height: 1.8; /* 增强呼吸感 */
+        }
+
+        /* 容器居中 */
+        .container {
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* 标题样式 */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            color: #4dd0e1;
+            text-shadow: 0 0 10px rgba(77, 208, 225, 0.5);
+        }
+
+        /* 头像/背景图 */
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #4dd0e1;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        /* 列表去重与对齐 */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* 盒模型应用：卡片化的 li */
+        li {
+            background-color: rgba(255, 255, 255, 0.1); /* 半透明背景 */
+            backdrop-filter: blur(5px); /* 毛玻璃效果 */
+            border-radius: 15px; /* 圆角 */
+            padding: 20px; /* 内边距 */
+            margin: 15px 0; /* 外边距，产生间距 */
+            text-align: left;
+            transition: transform 0.3s ease;
+            border-left: 5px solid #4dd0e1;
+        }
+
+        li:hover {
+            transform: translateX(10px);
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        /* 底部署名 */
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #888;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+        }
+
+        strong {
+            color: #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="我的头像" class="avatar">
+        
+        <h1>🚀 我的 2026 搞事计划</h1>
+
+        <ul>
+            <li>
+                <strong>Flag 01：</strong> 掌握量子纠缠编程（或者至少学会怎么修好家里的路由器）。
+            </li>
+            <li>
+                <strong>Flag 02：</strong> 每天坚持深度思考 30 分钟，不被短视频的 15 秒算法左右大脑。
+            </li>
+            <li>
+                <strong>Flag 03：</strong> 完成一次说走就走的星际旅行（如果马斯克的船票降价的话），或者至少去远方徒步一次。
+            </li>
+        </ul>
+
+        <footer>
+            <p>© 2026 未来开拓者 · 保持饥饿，保持愚蠢</p>
+        </footer>
+    </div>
+
+</body>
+</html>
