@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆注册</title>
+    <link rel="stylesheet" href="2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+     <div class="welcome">
+      <div class="pinkbox">
+       <div class="signup nodisplay">
+            <h1>Register</h1>
+            <form action="" autocomplete="off" class="more-padding">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+            <button class="button submit">Creat Account</button>
+            </form>
+        </div>
+
+        <div class="signin">
+                 <h1>sign in</h1>
+            <form action="" autocomplete="off">
+                <input type="text" placeholder="Username" required>
+                <!-- <input type="email" placeholder="Email" required> -->
+                <input type="password" placeholder="Password" required>
+                <!-- <input type="password" placeholder="Confirm Password" required> -->
+                 <div class="checkbox">
+                    <input type="checkbox" id="remember"><label for="remember">Remember me</label>
+                 </div>
+            <button class="button submit">Login</button>
+            </form>
+         </div>
+
+
+        
+    </div>
+    <div class="leftbox">
+        <h2 class="title"><span>BLOOM</span>&<br>BOUQUET</h2>
+        <p class="desc">Pick your perfect <span>bouquet</span></p>
+        <img src="https://ts1.tc.mm.bing.net/th/id/R-C.8aecb2b7a934c415a0027272c958c2e9?rik=gOSmFMm3uuR0Eg&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f10028%2f5740.jpg_wh1200.jpg&ehk=Zx%2bc2sG01e%2fhT%2b8lSAjwKJD9s4jGy877iio1ipKVY4Y%3d&risl=&pid=ImgRaw&r=0" alt="这是一个花朵" class="flower small">
+        <p class="account">have an account</p>
+        <button class="button" id="signin">Login</button>
+    </div>
+    
+    <div class="rightbox">
+        <h2 class="title"><span>BLOOM</span>&<br>BOUQUET</h2>
+        <p class="desc">Pick your perfect <span>bouquet</span></p>
+        <img src="https://img95.699pic.com/photo/60112/3125.jpg_wh860.jpg" alt="这是一个花朵" class="flower smaller">
+        <p class="noaccount">Don't have an account</p>
+        <button class="button" id="signup">Sing up</button>
+    </div>
+    </div>
+    </div>
+    
+    <script src="2.js"></script>
+
+    
+</body>
+</html>
